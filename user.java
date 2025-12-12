@@ -1,15 +1,15 @@
-import java.util.scanner;
+import java.util.Scanner;
 public class user{
-    publi static void main(string[args]){
-        scanner sc = new scanner(system.in)
-        system.out.println("enter the number");
-        string a = sc.nextLine();
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number");
+        int a = sc.nextInt();
         if(a>0){
-            system.out.println("positive number");
+            System.out.println("positive number");
         } else if(a<0){
-            system.out.println("negative number");
+            System.out.println("negative number");
         } else {
-            system.out.println("zero");
+            System.out.println("zero");
         }
     }
 }
